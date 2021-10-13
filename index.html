@@ -9,13 +9,110 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet"> 
   
-    
     <title>Dashboard Time tracking</title>
-  
-  </head>
+    </head>
 <body>
+  <div class="dashboard">
+    <div class="container__data sub">
+      <div class="data__info">
+        <img src="/images/image-jeremy.png">
+        <p>Report for</p>
+        <p class="name">Jeremy Robson</p>
+      </div>
+      <div class="data__range">
+        <p>Daily</p>
+        <p>Weekly</p>
+        <p>Monthly</p>
+      </div>
+    </div>
+    <div class="container__work sub">
+      <div class="sub__header">
+        <img src="images/icon-work.svg">
+      </div>
+      <div class="sub__data">
+        <div class="tittle" id="activity">
+          <p>Work</p>
+          <img src="images/icon-ellipsis.svg">
+        </div>
+        <p class="hours" id="clock"></p>
+        <p>Last Week - </p>
+        <p id="last"></p>
+      </div>
+    </div>
+    <div class="container__play sub">
+      <div class="sub__header">
+        <img src="images/icon-play.svg">
+      </div>
+      <div class="sub__data">
+        <div class="tittle" id="activity">
+          <p>Play</p>
+          <img src="images/icon-ellipsis.svg">
+        </div>
+        <p class="hours" id="clock"></p>
+        <p>Last Week - </p>
+        <p id="last"></p>
+      </div>
+    </div>
+    <div class="container__study sub">
+      <div class="sub__header">
+        <img src="images/icon-study.svg">
+      </div>
+      <div class="sub__data">
+        <div class="tittle" id="activity">
+          <p>Study</p>
+          <img src="images/icon-ellipsis.svg">
+        </div>
+        <p class="hours" id="clock"></p>
+        <p>Last Week - </p>
+        <p id="last"></p>
+      </div>
+    </div>
+    <div class="container__exercise sub">
+      <div class="sub__header">
+        <img src="images/icon-exercise.svg">
+      </div>
+      <div class="sub__data">
+        <div class="tittle" id="activity">
+          <p>Exercise</p>
+          <img src="images/icon-ellipsis.svg">
+        </div>
+        <p class="hours" id="clock"></p>
+        <p>Last Week - </p>
+        <p id="last"></p>
+      </div>
+    </div>
+    <div class="container__social sub">
+      <div class="sub__header">
+        <img src="images/icon-social.svg">
+      </div>
+      <div class="sub__data">
+        <div class="tittle" id="activity">
+          <p>Social</p>
+          <img src="images/icon-ellipsis.svg">
+        </div>
+        <p class="hours" id="clock"></p>
+        <p>Last Week - </p>
+        <p id="last"></p>
+      </div>
+    </div>
+    <div class="container__selfcare sub">
+      <div class="sub__header">
+        <img src="images/icon-self-care.svg">
+      </div>
+      <div class="sub__data">
+        <div class="tittle" id="activity">
+          <p>Self Care</p>
+          <img src="images/icon-ellipsis.svg">
+        </div>
+        <p class="hours" id="clock"></p>
+        <p>Last Week - </p>
+        <p id="last"></p>
+      </div>
+    </div>
+  </div>
+
   <script src="scripts/script.js"></script>
 </body>
 </html>
