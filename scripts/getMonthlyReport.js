@@ -16,7 +16,7 @@ function getMonthlyReport() {
                     <img src="images/icon-ellipsis.svg">
                 </div>
                 <p class="hours">${data.timeframes.monthly.current}hrs</p>
-                <p class="last">Last Week - ${data.timeframes.monthly.previous}hrs</p>
+                <p class="last">Last Month - ${data.timeframes.monthly.previous}hrs</p>
             </div>
         </div>
         `;

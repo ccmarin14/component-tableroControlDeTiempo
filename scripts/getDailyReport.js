@@ -16,7 +16,7 @@ function getDailyReport() {
                     <img src="images/icon-ellipsis.svg">
                 </div>
                 <p class="hours">${data.timeframes.daily.current}hrs</p>
-                <p class="last">Last Week - ${data.timeframes.daily.previous}hrs</p>
+                <p class="last">Last Day - ${data.timeframes.daily.previous}hrs</p>
             </div>
         </div>
         `;
