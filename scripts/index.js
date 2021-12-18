@@ -12,7 +12,7 @@ const IMAGES = [
 
 let boxContent;
 
-daily.addEventListener("click",getDailyReport);
-weekly.addEventListener("click",getWeeklyReport);
-monthly.addEventListener("click",getMonthlyReport);
+daily.addEventListener("click",function(){getTimeReport("daily")});
+weekly.addEventListener("click",function(){getTimeReport("weekly")});
+monthly.addEventListener("click",function(){getTimeReport("monthly")});
 
